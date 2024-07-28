@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cronómetro</h1>
+        <div id="timer">00:00:00</div>
+        <div class="controls">
+            <button id="start">Iniciar</button>
+            <button id="pause" class="hidden">Pausar</button>
+            <button id="reset" class="hidden">Reiniciar</button>
+            <button id="lap" class="hidden">Vuelta</button>
+        </div>
+        <div class="laps hidden">
+            <h2>Datos del Cronómetro</h2>
+            <table id="lapsTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Vuelta</th>
+                        <th>Tiempo Total</th>
+                        <th>Hora Actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="laps-controls hidden">
+                <button id="clearLaps">Borrar Datos</button>
+                <button id="exportCSV">Exportar CSV</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
