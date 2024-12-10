@@ -11,7 +11,7 @@ Este proyecto es un **cronómetro** que permite iniciar, pausar, reiniciar y reg
 - **Diseño responsive**: La interfaz se adapta a diferentes tamaños de pantalla para asegurar una experiencia óptima en dispositivos móviles y de escritorio.
 
 ## 📸 Imágenes
-![Captura de pantalla de la aplicación](./screenshot.jpeg)
+![Captura de pantalla de la aplicación](./screenshot.png)
 
 ## 🛠️ Tecnologías utilizadas
 <p align="center">
