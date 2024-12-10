@@ -35,3 +35,26 @@ Este proyecto es un **cronómetro** que permite iniciar, pausar, reiniciar y reg
 ```bash
 git clone https://github.com/xXRenzoElProXx/Cronometro.git
 ```
+### 2. Navega a la carpeta del proyecto:
+```bash
+cd cronometro-interactivo
+```
+### 3. Abre el archivo index.html en tu navegador para visualizar la aplicación.
+ 
+## 🧑‍💻 Uso de la aplicación
+1. **Iniciar cronómetro:** Haz clic en el botón "Iniciar" para comenzar el cronómetro.
+2. **Pausar/Reanudar:** Haz clic en el botón "Pausar" para detener el cronómetro y "Reanudar" para continuar desde donde lo dejaste.
+3. **Reiniciar cronómetro:** Haz clic en "Reiniciar" para poner el cronómetro a cero.
+4. **Registrar vuelta:** Haz clic en "Vuelta" para agregar el tiempo transcurrido como una vuelta en la tabla.
+5. **Borrar registros:** Haz clic en "Borrar Datos" para eliminar todas las vueltas registradas y reiniciar el contador de vuelta.
+6. **Exportar CSV:** Haz clic en "Exportar CSV" para descargar los registros de las vueltas en formato CSV.
+
+##📂 Estructura de archivos
+```bash
+cronometro/
+├── index.html        # Archivo principal de la aplicación.
+├── styles.css        # Hoja de estilos de la aplicación.
+├── script.js         # Archivo JavaScript con la lógica de la aplicación.
+├── icon.png          # Ícono de la aplicación.
+├── screenshot.png   # Captura de pantalla de la aplicación.
+```
