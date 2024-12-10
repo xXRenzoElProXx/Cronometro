@@ -49,7 +49,7 @@ cd cronometro-interactivo
 5. **Borrar registros:** Haz clic en "Borrar Datos" para eliminar todas las vueltas registradas y reiniciar el contador de vuelta.
 6. **Exportar CSV:** Haz clic en "Exportar CSV" para descargar los registros de las vueltas en formato CSV.
 
-##📂 Estructura de archivos
+## 📂 Estructura de archivos
 ```bash
 cronometro/
 ├── index.html        # Archivo principal de la aplicación.
