@@ -21,7 +21,6 @@ function updateDisplay() {
     const secs = String(seconds % 60).padStart(2, '0');
     timerDisplay.textContent = `${hrs}:${mins}:${secs}`;
 
-
     document.title = `${hrs}:${mins}:${secs} - Cronómetro`;
 }
 
@@ -118,7 +117,8 @@ function updateElapsedTime() {
 
 function clearLaps() {
     lapsTableBody.innerHTML = '';
-    lapsContainer.classList.add('hidden');
+    lapCount = 0;
+    lapsContainer.classList.add('hidden'); 
     lapsControls.classList.add('hidden');
 }
 
@@ -126,25 +126,14 @@ function downloadCSV(csv, filename) {
     var csvFile;
     var downloadLink;
 
-
     csvFile = new Blob([csv], { type: "text/csv" });
-
-
     downloadLink = document.createElement("a");
-
-
     downloadLink.download = filename;
 
-
     downloadLink.href = window.URL.createObjectURL(csvFile);
-
-
     downloadLink.style.display = "none";
 
-
     document.body.appendChild(downloadLink);
-
-
     downloadLink.click();
 }
 
@@ -160,7 +149,6 @@ function exportTableToCSV(filename) {
 
         csv.push(row.join(","));
     }
-
 
     downloadCSV(csv.join("\n"), filename);
 }
